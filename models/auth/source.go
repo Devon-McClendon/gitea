@@ -1,5 +1,5 @@
 // Copyright 2014 The Gogs Authors. All rights reserved.
-// Copyright 2019 The Gitea Authors. All rights reserved.
+// Copyright 2025 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
 package auth
@@ -33,6 +33,7 @@ const (
 	DLDAP       // 5
 	OAuth2      // 6
 	SSPI        // 7
+	SAML        // 8
 )
 
 // String returns the string name of the LoginType
@@ -53,6 +54,7 @@ var Names = map[Type]string{
 	PAM:    "PAM",
 	OAuth2: "OAuth2",
 	SSPI:   "SPNEGO with SSPI",
+	SAML:   "SAML",
 }
 
 // Config represents login config as far as the db is concerned
@@ -182,6 +184,11 @@ func (source *Source) IsOAuth2() bool {
 // IsSSPI returns true of this source is of the SSPI type.
 func (source *Source) IsSSPI() bool {
 	return source.Type == SSPI
+}
+
+// IsSAML returns true if this source is of the SAML type.
+func (source *Source) IsSAML() bool {
+	return source.Type == SAML
 }
 
 // HasTLS returns true of this source supports TLS.
