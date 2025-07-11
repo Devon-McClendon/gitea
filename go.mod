@@ -151,6 +151,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.34 // indirect
 	github.com/aws/smithy-go v1.22.3 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
+	github.com/beevik/etree v1.5.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bits-and-blooms/bitset v1.22.0 // indirect
 	github.com/blevesearch/bleve_index_api v1.2.8 // indirect
@@ -181,6 +182,7 @@ require (
 	github.com/couchbase/gomemcached v0.3.3 // indirect
 	github.com/couchbase/goutils v0.1.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
+	github.com/crewjam/saml v0.5.1 // indirect
 	github.com/cyphar/filepath-securejoin v0.4.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/davidmz/go-pageant v1.0.2 // indirect
@@ -216,12 +218,14 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
+	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/libdns/libdns v1.0.0-beta.1 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/markbates/going v1.0.3 // indirect
+	github.com/mattermost/xml-roundtrip-validator v0.1.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/mattn/go-shellwords v1.0.12 // indirect
@@ -247,6 +251,7 @@ require (
 	github.com/rhysd/actionlint v1.7.7 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/rs/xid v1.6.0 // indirect
+	github.com/russellhaering/goxmldsig v1.4.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/skeema/knownhosts v1.3.1 // indirect
