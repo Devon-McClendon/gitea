@@ -75,12 +75,12 @@ func GenerateSAMLSPKeypair() (string, string, error) {
 	return string(keyPem), string(certPem), nil
 }
 
-// FromDB fills up an OAuth2Config from serialized format.
+// FromDB fills up an SAMLConfig from serialized format.
 func (source *Source) FromDB(bs []byte) error {
 	return json.UnmarshalHandleDoubleEncode(bs, &source)
 }
 
-// ToDB exports an OAuth2Config to a serialized format.
+// ToDB exports an SAMLConfig to a serialized format.
 func (source *Source) ToDB() ([]byte, error) {
 	return json.Marshal(source)
 }
